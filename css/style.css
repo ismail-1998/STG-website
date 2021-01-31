@@ -1,0 +1,515 @@
+/*
+Index of the CSS File
+    1- Global
+    2- Header
+    3- About
+    4- Solutions
+    5- Partners
+    6- Projects
+    7- Contact-Us
+    8- Footer
+    9- CopyRight
+*/
+
+
+/* Start Global ---------------------------------------------- */
+h3 {
+    margin: 0;
+}
+
+.padding {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.custom-btn {
+    color: #fff;
+    background: #03218f;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 54px;
+    text-transform: capitalize;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.custom-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/* End Global -------------------------------------------------- */
+
+
+/* Start Header ------------------------------------------------ */
+.header {
+    background-image: url('../img/back-img.jpg');
+    background-position: center ;
+    background-size: cover;
+    /* height: 100vh; */
+    color: #fff;
+    padding: 15px 0;
+    position: relative;
+}
+
+.header-contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.header-contact-item:first-of-type {
+    margin-right: 60px ;
+    border-right: 2px solid #fff;
+    padding-right: 50px;
+
+}
+
+.header-contact-item .icon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+.header-contact-item h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header-contact-item span {
+    font-size: 11px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 40px;
+    padding: 5px 0;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item:hover .nav-link {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.header-info {
+    margin: 155px 0;
+}
+
+.header-info .title {
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.header-info .desc {
+    font-size: 23px;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .navbar .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+    }
+
+
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item:hover .nav-link {
+        border-bottom: none;
+        
+    }
+
+    .header-info {
+        margin: 130px 0;
+    }
+
+    .header-info .title {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    
+    .header-info .desc {
+        font-size: 19px;
+    }
+
+}
+
+/* End Header ---------------------------------------------------- */
+
+
+/* Start About --------------------------------------------------- */
+.about-imgs {
+    position: relative;
+    max-width: 450px ;
+    height: 464px ;
+}
+
+.about-imgs img {
+    position: absolute;
+    border-radius: 45px;
+    -webkit-box-shadow: 1px 1px 5px gray,
+                -1px -1px 5px gray;
+            box-shadow: 1px 1px 5px gray,
+                -1px -1px 5px gray;
+}
+
+.about-imgs .img1 {
+    width: 238px;
+    height: 238px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.about-imgs .img2 {
+    width: 199px;
+    height: 199px;
+    left: 40px;
+    bottom:0;
+    z-index: 1;
+}
+
+.about-imgs .img3 {
+    width: 285px;
+    height: 285px;
+    top: 70px;
+    right:0;
+    z-index: 2;
+}
+
+.about-info {
+    padding: 30px;
+    margin-right: 0;
+}
+
+.about-info h3 {
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.about-info p {
+    font-size: 23px;
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    .about-info {
+        padding: 15px;
+    }
+    
+    .about-info h3 {
+        font-size: 30px;
+        font-weight: bold;
+        text-transform: capitalize;
+    }
+    
+    .about-info p {
+        font-size: 19px;
+        line-height: 1.5;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .about-imgs {
+        margin: 0 auto 20px auto;
+    }
+}
+/* End About ---------------------------------------------------- */
+
+
+
+/* Start Solution ----------------------------------------------- */
+.Solution {
+    background-color: rgb(240, 239, 239);
+}
+
+.Solution .container > p {
+    margin-bottom: 30px;
+}
+
+.sol-item {
+    background-color: #fff;
+    max-width: 351px;
+    height: 351px;
+    border-radius: 30px;
+    text-align: left;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+.sol-item h5 {
+    margin: 20px 0 10px 0;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .sol-item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+/* End Solution ----------------------------------------------- */
+
+
+
+/* Start Partner ----------------------------------------------- */
+.partner {
+    background-color: #000545;
+    color: #fff;
+}
+
+.par-desc {
+    padding: 0 90px;
+    margin: 30px 0;
+}
+
+.par-item {
+    max-width: 195px;
+    height: 197px;
+    background-color: #03218F;
+    border-radius: 50px;
+    margin: 0 auto 15px auto;
+}
+
+.par-item img {
+    width: 100%;
+    height: 100%;
+    line-height: 197px;
+}
+
+
+/* End Partner ----------------------------------------------- */
+
+
+/* Start Project ---------------------------------------------  */
+.project-title {
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.project-items {
+    padding: 30px 0;
+}
+
+.project-item {
+    max-width: 351px;
+    height: 351px;
+    background-image: url('../img/project-img.jpg');
+    color: #fff;
+    padding: 130px 20px 10px 20px;
+    border-radius: 30px;
+    text-align: left;
+    margin: 0 auto 20px auto;
+}
+.project-item h3 {
+    margin-bottom: 20px;
+}
+
+.project-stat {
+    height: 209px;
+    background-image: url('../img/back-img.jpg');
+    background-attachment: fixed;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.project-stat .container > p {
+    margin: 5px 0 20px 0;
+}
+
+.project-stat h3 {
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.project-stat p {
+    font-size: 13px;
+}
+
+.pro-stat-item {
+    max-width:116px ;
+    height: 104px;
+    margin: 0 auto;
+}
+
+.pro-stat-item p {
+    margin: 2px 0 ;
+}
+
+.pro-stat-item span {
+    font-size: 28px;
+    font-weight: bold;
+    display: inline-block;
+}
+/* End Project ---------------------------------------------  */
+
+
+
+/* CONTACT-US ---------------------- */
+.contact-us .location {
+    max-width: 469px;
+    height: 469px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 30px;
+}
+
+.contact-us .location img {
+    width: 100%;
+    height: 100%;
+}
+
+.contact-form {
+    max-width: 474px;
+}
+
+.contact-form h3 {
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #000545;
+    font-weight: bold;
+    margin: -30px 0 30px 0;
+}
+.contact-us form {
+    height: 266px;
+    border-radius: 30px;
+    -webkit-box-shadow: 1px 1px 20px rgb(190, 190, 190),
+                -1px -1px 20px rgb(190, 190, 190);
+            box-shadow: 1px 1px 20px rgb(190, 190, 190),
+                -1px -1px 20px rgb(190, 190, 190);
+    padding: 20px;   
+}
+
+.contact-us form .h {
+    width: 48%;
+    float: left;
+}
+
+.contact-us form label {
+    font-size: 14px;
+}
+
+.contact-us form input,
+.contact-us form textarea {
+    background-color: #F1F1F1;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 14px;
+}
+
+
+.contact-us form textarea {
+    width: 385px;
+    height: 74px;
+}
+
+.contact-us form button {
+    font-size: 14px;
+    padding: 5px 35px;
+    margin-top: 10px;
+}
+
+.contact-info {
+    margin-top: 5px;
+}
+
+table tr td:first-of-type {
+    color: blue;
+}
+
+table tr td:first-of-type i {
+    font-size: 28px;
+}
+
+table tr  td.mg-l {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+table tr  td.p-top {
+   padding-top: 30px;
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .contact-form h3 {
+        margin: 15px 0 ;
+    }
+}
+
+
+/* start Footer -----------------------*/
+.footer {
+    background-color: #000545;
+    color: #fff;
+}
+
+.footer .first-item img {
+    margin-bottom: 20px;
+}
+
+.footer .second-item h3 {
+    margin-bottom: 30px;
+}
+
+.footer .second-item .links li {
+    margin-bottom: 30px;
+}
+
+.footer .second-item .links li a {
+    color: #fff;
+}
+.footer .second-item .links li:hover a {
+    text-decoration: none;
+}
+
+.footer .second-item h3,
+.footer .third-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0D73E4;
+}
+.footer .second-item,
+.footer .third-item {
+    margin-top: 45px;
+}
+
+.footer .third-item table tr td {
+    color: #fff;
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .footer .second-item,
+    .footer .third-item {
+        margin-top: 10px;
+    }
+}
+
+/* End Footer ----------------------------- */
+
+
+
+/* Start CopyRight -------------------------- */
+.copy-right {
+    padding: 5px 0;
+}
+
+.copy-right i {
+    color: #000545;
+    font-size: 18px;
+    margin-left: 5px;
+}
+/* End CopyRight -------------------------- */
