@@ -396,6 +396,10 @@ h3 {
     float: left;
 }
 
+.contact-us form div.mg-l {
+    margin-right: 3%;
+}
+  
 .contact-us form label {
     font-size: 14px;
 }
